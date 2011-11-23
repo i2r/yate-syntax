@@ -7,7 +7,9 @@
 Скопируйте `yate.vim` в папку `~/.vim/syntax`
 
 Если используете Pathogen, то в папке `~/.vim/bundle` выполните
+
     git clone git://github.com/lork/yate-syntax.git
 
 В `~/.vimrc` добавьте
+
     au BufRead,BufNewFile *.yate setf yate
